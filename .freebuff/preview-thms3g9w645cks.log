@@ -1,8 +1,0 @@
-▲ Next.js 16.2.12 (Turbopack)
-- Local:         http://localhost:3001
-- Network:       http://172.20.0.1:3001
-✓ Ready in 384ms
-
-⚠ Slow filesystem detected. The benchmark took 396ms. If /home/marco/Desktop/laboratory-of-electrical-eng/leec-web/.next/dev is a network drive, consider moving it to a local folder.
-See more: https://nextjs.org/docs/app/guides/local-development
-[?25h
