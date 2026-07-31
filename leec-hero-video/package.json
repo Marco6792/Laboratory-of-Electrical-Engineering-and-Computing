@@ -1,19 +1,28 @@
 {
   "name": "leec-hero-video",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "LEEC Hero Video - Automated product demo using Remotion + Remocn",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "remotion studio",
+    "build": "remotion render LeecHeroVideo out/leec-hero-video.mp4",
+    "preview": "remotion preview LeecHeroVideo"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
+  "keywords": [
+    "leec",
+    "remotion",
+    "video"
+  ],
+  "author": "LEEC",
+  "license": "MIT",
+  "type": "module",
   "dependencies": {
+    "@paper-design/shaders-react": "0.0.78",
     "@remotion/bundler": "^4.0.500",
     "@remotion/cli": "^4.0.500",
     "@remotion/player": "^4.0.500",
+    "@remotion/renderer": "^4.0.500",
+    "@remotion/transitions": "^4.0.500",
     "react": "^19.2.8",
     "react-dom": "^19.2.8",
     "remotion": "^4.0.500"
